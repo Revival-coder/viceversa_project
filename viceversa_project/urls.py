@@ -17,6 +17,6 @@ Including another URLconf
 from django.urls import path
 from . import user
 urlpatterns = [
-    path('home/', user.home),
+    path('', user.home),
     path('reverse/', user.reverse,name='reverse'),
 ]
