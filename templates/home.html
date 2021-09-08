@@ -11,6 +11,12 @@
     </head>
     <body>
         <h1>Hello, this is my page</h1>
+        <form action="{% url 'reverse' %}">
+            <textarea name="comment" cols="45" rows="15"></textarea>
+            <br><br>
+            <input type="submit" value="Reverse!">
+            
+        </form>
     
 
 
